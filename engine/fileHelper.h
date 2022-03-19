@@ -1,6 +1,7 @@
 #pragma once
 #include<fstream>
 #include<iostream>
+#include<string>
 
 
 class fileHelper
@@ -15,6 +16,11 @@ public:
 	int openWorkDict(std::ifstream& file);
 	int openDoneDict(std::ifstream& file);
 	void close(std::ifstream& file);
+	//----------------------------------------
+	int openStartDict(std::ofstream& file);
+	int openWorkDict(std::ofstream& file);
+	int openDoneDict(std::ofstream& file);
+	void close(std::ofstream& file);
 
 private:
 
