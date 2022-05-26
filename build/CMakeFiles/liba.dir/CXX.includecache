@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kisik/Desktop/hi/RE/RUSENG/engine/engine.cpp
+engine.h
+/home/kisik/Desktop/hi/RE/RUSENG/engine/engine.h
+
+/home/kisik/Desktop/hi/RE/RUSENG/engine/engine.h
+iostream
+-
+cstdio
+-
+vector
+-
+string
+-
+cstdint
+-
+fileHelper.h
+/home/kisik/Desktop/hi/RE/RUSENG/engine/fileHelper.h
+
+/home/kisik/Desktop/hi/RE/RUSENG/engine/fileHelper.h
+fstream
+-
+iostream
+-
+string
+-
+

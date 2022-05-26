@@ -1,21 +1,24 @@
-#include "fileHelper.h"
 
-#ifdef linux
-	const std::string c_infoPath = "info";
-	const std::string c_startDict = "startDict.txt";
-	const std::string c_workDict = "workDict.txt";
-	const std::string c_doneDict = "doneDict.txt";
-#elif _WIN32 || _WIN64
-	const std::string c_infoPath = "info";
-	const std::string c_startDict = "startDict.txt";
-	const std::string c_workDict = "workDict.txt";
-	const std::string c_doneDict = "doneDict.txt";
+#include"fileHelper.h"
+
+
+
+#if __linux__
+	const std::string startDict = "../info/startDict.txt";
+	const std::string workDict = "../info/workDict.txt";
+	const std::string doneDict = "../'info/doneDict.txt";
+#elif __WIN32__
+	const std::string startDict = "..\\info\\startDict.txt";
+	const std::string workDict = "..\\info\\workDict.txt";
+	const std::string doneDict = "..\\info\\doneDict.txt";
+
 #endif
 
 
 
 fileHelper::fileHelper():m_workDir(fs::current_path())
 {
+
 	if (fs::exists(m_workDir / c_infoPath))
 	{
 		std::cout << "[INFO]: info Folder exists.\n";
@@ -24,6 +27,7 @@ fileHelper::fileHelper():m_workDir(fs::current_path())
 	{
 		std::cout << "[ERR]: info Folder doesn't exist.\n";
 	}
+
 }
 
 //-----------------------------------------------------------
@@ -87,3 +91,5 @@ void fileHelper::close(std::ofstream& file)
 {
 	file.close();
 }
+
+//-----------------------------------------------------------

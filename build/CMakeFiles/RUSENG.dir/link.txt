@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/RUSENG.dir/source.cpp.o  -o RUSENG libliba.a 
