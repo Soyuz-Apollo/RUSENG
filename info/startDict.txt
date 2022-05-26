@@ -1,17 +1,17 @@
-Development – разработка
-Hence – следовательно
-devoted – посвященный
-notable – заметный
-outcome – результат
-to cover – охватывать 
-control-flow – поток управления
-to defer – отложить
-appropriate point – подходящий момент 
-evaluation – оценка
-staging – ступенчатый
-obtain – получать 
-delimit – разграничивать 
-layered – слоистый
+Development - разработка
+Hence - следовательно
+devoted - посвященный
+notable - заметный
+outcome - результат
+to cover - охватывать 
+control-flow - поток управления
+to defer - отложить
+appropriate point - подходящий момент 
+evaluation - оценка
+staging - ступенчатый
+obtain - получать 
+delimit - разграничивать 
+layered - слоистый
 overwhelmed - ошеломленный/подавленный/сокрушенный
 insurance - страховка
 malfunctioned - неисправно работать/сломанный...

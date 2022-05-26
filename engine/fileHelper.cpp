@@ -1,5 +1,7 @@
 #include"fileHelper.h"
 
+
+
 #if __linux__
 	const std::string startDict = "../info/startDict.txt";
 	const std::string workDict = "../info/workDict.txt";
@@ -13,6 +15,7 @@
 
 fileHelper::fileHelper()
 {
+	
 }
 
 //-----------------------------------------------------------
@@ -76,3 +79,5 @@ void fileHelper::close(std::ofstream& file)
 {
 	file.close();
 }
+
+//-----------------------------------------------------------

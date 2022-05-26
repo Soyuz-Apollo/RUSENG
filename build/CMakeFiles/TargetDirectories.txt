@@ -1,0 +1,4 @@
+/home/kisik/Desktop/hi/RE/RUSENG/build/CMakeFiles/edit_cache.dir
+/home/kisik/Desktop/hi/RE/RUSENG/build/CMakeFiles/liba.dir
+/home/kisik/Desktop/hi/RE/RUSENG/build/CMakeFiles/rebuild_cache.dir
+/home/kisik/Desktop/hi/RE/RUSENG/build/CMakeFiles/RUSENG.dir
