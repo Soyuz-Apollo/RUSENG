@@ -2,10 +2,7 @@
 #include<fstream>
 #include<iostream>
 #include<string>
-#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
-#include <experimental/filesystem>
 
-namespace fs = std::experimental::filesystem;
 
 class fileHelper
 {
